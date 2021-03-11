@@ -22,11 +22,6 @@
         default: '#1296db'
       }
     },
-    data() {
-      return {
-        // isActive: true
-      }
-    },
     methods: {
       itemClick() {
         this.$router.replace(this.path)
